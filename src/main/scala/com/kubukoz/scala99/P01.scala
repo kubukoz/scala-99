@@ -10,6 +10,20 @@ import scala.annotation.tailrec
   **/
 object P01 {
 
+  /**
+    * Built-in, inherited from `TraversableLike`.
+    *
+    * As of Scala 2.11.8 internally implemented in terms of
+    * `isEmpty` and `last`.
+    **/
+  def lastBuiltin[T](list: List[T]): Option[T] = list.lastOption
+
+  /**
+    * Probably the most idiomatic implementation,
+    * if you don't have the built-in `.last` method on `List`.
+    *
+    * Implemented with pattern matching.
+    **/
   @tailrec
   def last[T](list: List[T]): Option[T] = list match {
     case Nil => None
