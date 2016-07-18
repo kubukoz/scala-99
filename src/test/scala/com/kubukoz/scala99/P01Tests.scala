@@ -1,19 +1,36 @@
 package com.kubukoz.scala99
 
+import com.kubukoz.scala99.P01Tests.solutions
 import org.scalatest.{FlatSpec, Matchers}
 
 import scala.language.postfixOps
 
 class P01Tests extends FlatSpec with Matchers {
   "last" should "return the last element for a non-empty list" in {
-    P01.last(List(1, 2, 3, 4, 5)) shouldBe Some(5)
+    solutions.resultsFor(List(1, 2, 3, 4, 5)) {
+      _ shouldBe Some(5)
+    }
   }
 
   it should "return None for an empty list" in {
-    P01.last(Nil) shouldBe None
+    solutions.resultsFor(Nil) {
+      _ shouldBe None
+    }
   }
 
   it should "not stack overflow" in {
-    P01.last(1 to 100000 toList) shouldBe Some(100000)
+    solutions.resultsFor(1 to 100000 toList) {
+      _ shouldBe Some(100000)
+    }
+  }
+}
+
+object P01Tests {
+  val solutions = new SolutionTester {
+    override type From = List[Int]
+
+    override type To = Option[Int]
+
+    override protected def implementations: Seq[From => To] = List(P01.lastBuiltin _, P01.last _)
   }
 }

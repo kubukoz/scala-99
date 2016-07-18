@@ -9,7 +9,6 @@ import scala.annotation.tailrec
   * res0: Option[Int] = Some(8)
   **/
 object P01 {
-
   /**
     * Built-in, inherited from `TraversableLike`.
     *
