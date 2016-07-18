@@ -14,3 +14,4 @@ Solutions:
 
 - [P01] (src/main/scala/com/kubukoz/scala99/P01.scala) ([tests] (src/test/scala/com/kubukoz/scala99/P01Tests.scala)) completed Mon Jul 18 18:00:33 CEST 2016
 - [P02] (src/main/scala/com/kubukoz/scala99/P02.scala) ([tests] (src/test/scala/com/kubukoz/scala99/P02Tests.scala)) completed Mon Jul 18 19:30:49 CEST 2016
+- [P03] (src/main/scala/com/kubukoz/scala99/P03.scala) ([tests] (src/test/scala/com/kubukoz/scala99/P03Tests.scala)) completed Mon Jul 18 19:50:40 CEST 2016
