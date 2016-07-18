@@ -5,7 +5,7 @@ readonly PACKAGE_PATH=${PACKAGE//.//}
 
 readonly TASK_NUMBER=P$(printf "%02d" $1)
 
-readonly COMPLETION_DATE=$(date +%d.%m.%Y)
+readonly COMPLETION_DATE=$(date)
 
 echo - \
     \[${TASK_NUMBER}\]  \(src/main/scala/${PACKAGE_PATH}/${TASK_NUMBER}.scala\) \
