@@ -13,3 +13,4 @@ Starting July 18, 2016.
 Solutions:
 
 - [P01] (src/main/scala/com/kubukoz/scala99/P01.scala) ([tests] (src/test/scala/com/kubukoz/scala99/P01Tests.scala)) completed 18.07.2016
+- [P02] (src/main/scala/com/kubukoz/scala99/P02.scala) ([tests] (src/test/scala/com/kubukoz/scala99/P02Tests.scala)) completed 18.07.2016
