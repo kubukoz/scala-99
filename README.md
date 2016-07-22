@@ -30,3 +30,4 @@ Solutions:
 - [P13] (src/main/scala/com/kubukoz/scala99/P13.scala) ([tests] (src/test/scala/com/kubukoz/scala99/P13Tests.scala)) completed Fri Jul 22 22:21:44 CEST 2016
 - [P14] (src/main/scala/com/kubukoz/scala99/P14.scala) ([tests] (src/test/scala/com/kubukoz/scala99/P14Tests.scala)) completed Fri Jul 22 22:29:21 CEST 2016
 - [P15] (src/main/scala/com/kubukoz/scala99/P15.scala) ([tests] (src/test/scala/com/kubukoz/scala99/P15Tests.scala)) completed Fri Jul 22 22:35:51 CEST 2016
+- [P16] (src/main/scala/com/kubukoz/scala99/P16.scala) ([tests] (src/test/scala/com/kubukoz/scala99/P16Tests.scala)) completed Fri Jul 22 22:56:24 CEST 2016
