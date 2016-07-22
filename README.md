@@ -22,3 +22,4 @@ Solutions:
 - [P05] (src/main/scala/com/kubukoz/scala99/P05.scala) ([tests] (src/test/scala/com/kubukoz/scala99/P05Tests.scala)) completed Fri Jul 22 00:56:47 CEST 2016
 - [P06] (src/main/scala/com/kubukoz/scala99/P06.scala) ([tests] (src/test/scala/com/kubukoz/scala99/P06Tests.scala)) completed Fri Jul 22 20:55:59 CEST 2016
 - [P07] (src/main/scala/com/kubukoz/scala99/P07.scala) ([tests] (src/test/scala/com/kubukoz/scala99/P07Tests.scala)) completed Fri Jul 22 21:36:56 CEST 2016
+- [P08] (src/main/scala/com/kubukoz/scala99/P08.scala) ([tests] (src/test/scala/com/kubukoz/scala99/P08Tests.scala)) completed Fri Jul 22 21:46:38 CEST 2016
