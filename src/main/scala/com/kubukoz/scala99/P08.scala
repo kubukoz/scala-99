@@ -11,6 +11,10 @@ import scala.annotation.tailrec
   * res0: List[Symbol] = List('a, 'b, 'c, 'a, 'd, 'e)
   **/
 object P08 {
+  /**
+    * Alternative: use .takeWhile on `t` and only have two cases.
+    * I used such an approach in [[P09]].
+    **/
   def compress[T](l: List[T]): List[T] = {
     @tailrec
     def go(list: List[T], previousOpt: Option[T], mem: List[T]): List[T] = list match {
