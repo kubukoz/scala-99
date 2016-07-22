@@ -26,3 +26,4 @@ Solutions:
 - [P09] (src/main/scala/com/kubukoz/scala99/P09.scala) ([tests] (src/test/scala/com/kubukoz/scala99/P09Tests.scala)) completed Fri Jul 22 22:03:08 CEST 2016
 - [P10] (src/main/scala/com/kubukoz/scala99/P10.scala) ([tests] (src/test/scala/com/kubukoz/scala99/P10Tests.scala)) completed Fri Jul 22 22:08:22 CEST 2016
 - [P11] (src/main/scala/com/kubukoz/scala99/P11.scala) ([tests] (src/test/scala/com/kubukoz/scala99/P11Tests.scala)) completed Fri Jul 22 22:11:55 CEST 2016
+- [P12] (src/main/scala/com/kubukoz/scala99/P12.scala) ([tests] (src/test/scala/com/kubukoz/scala99/P12Tests.scala)) completed Fri Jul 22 22:14:36 CEST 2016
