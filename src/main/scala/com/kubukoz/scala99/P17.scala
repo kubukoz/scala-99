@@ -11,9 +11,10 @@ object P17 {
     **/
   def split[T](n: Int, l: List[T]): (List[T], List[T]) = {
     @tailrec
-    def go(left: Int, remaining: List[T], mem: List[T]): (List[T], List[T]) = (left, remaining) match {
-      case (_, _) if left <= 0 || remaining.isEmpty => (mem.reverse, remaining)
-      case (_, h :: t) => go(left - 1, t, h :: mem)
+    def go(left: Int, remaining: List[T], mem: List[T]): (List[T], List[T]) = remaining match {
+      case _ if left < 1 => (mem.reverse, remaining)
+      case Nil => (mem.reverse, Nil)
+      case h :: t => go(left - 1, t, h :: mem)
     }
 
     go(n, l, Nil)
