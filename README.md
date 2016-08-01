@@ -1,5 +1,7 @@
 # scala-99
 
+[![Build Status](https://travis-ci.org/kubukoz/scala-99.svg?branch=master)](https://travis-ci.org/kubukoz/scala-99)
+
 Here you'll find my solutions for the "99 Scala problems" challenge, hopefully on a regular basis.
 Most likely I'll solve them when I don't have other stuff to do, though.
 
