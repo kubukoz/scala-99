@@ -36,3 +36,4 @@ Solutions:
 - [P17] (src/main/scala/com/kubukoz/scala99/P17.scala) ([tests] (src/test/scala/com/kubukoz/scala99/P17Tests.scala)) completed Tue Aug 2 00:24:12 CEST 2016
 - [P18] (src/main/scala/com/kubukoz/scala99/P18.scala) ([tests] (src/test/scala/com/kubukoz/scala99/P18Tests.scala)) completed Tue Aug 2 19:22:40 CEST 2016
 - [P19] (src/main/scala/com/kubukoz/scala99/P19.scala) ([tests] (src/test/scala/com/kubukoz/scala99/P19Tests.scala)) completed Tue Aug 2 19:44:00 CEST 2016
+- [P20] (src/main/scala/com/kubukoz/scala99/P20.scala) ([tests] (src/test/scala/com/kubukoz/scala99/P20Tests.scala)) completed Wed Aug 24 23:11:28 CEST 2016
