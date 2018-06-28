@@ -9,8 +9,8 @@ readonly COMPLETION_DATE=$(date)
 
 if [ -n "$1" ]; then
     echo - \
-        \[${TASK_NUMBER}\]  \(src/main/scala/${PACKAGE_PATH}/${TASK_NUMBER}.scala\) \
-        \([tests]           \(src/test/scala/${PACKAGE_PATH}/${TASK_NUMBER}Tests.scala\)\) \
+        \[${TASK_NUMBER}\]\(src/main/scala/${PACKAGE_PATH}/${TASK_NUMBER}.scala\) \
+        \([tests]\(src/test/scala/${PACKAGE_PATH}/${TASK_NUMBER}Tests.scala\)\) \
         completed ${COMPLETION_DATE} >> README.md
 else
     printf "\tUsage: ./add-solution.sh 1\n"
